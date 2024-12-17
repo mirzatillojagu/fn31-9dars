@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     font-family: sans-serif;
+}
+
+body {
+    background-color: lightcyan;
+}
+
+
+#loginForm {
+  width: 600px;
+  margin: 50px auto;
+  background-color: aqua;
+  padding: 30px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+
+#loginForm * {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 100%;
+}
